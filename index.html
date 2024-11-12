@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrencies</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        /* Custom styles for the table */
+        table {
+            margin-top: 30px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #f1f1f1;
+        }
+
+        .crypto-image {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .crypto-description {
+            text-align: left;
+        }
+
+        .crypto-price {
+            font-weight: bold;
+            color: #dc3545;
+        }
+
+        h1 {
+            background-color: #228B22;
+            color: white;
+            padding: 20px 0;
+            font-size: 36px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="text-center">Information on Cryptocurrencies</h1>
+
+    <div class="container">
+
+        <!-- Cryptocurrency Table -->
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Cryptocurrency</th>
+                    <th>Price</th>
+                    <th>Image</th>
+                    <th>Description</th>
+                    <th>Reference</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                <tr>
+                    <td>Avalanche</td>
+                    <td class="crypto-price">$22.86</td>
+                    <td><img src="Avalanche.png" alt="Avalanche logo" class="crypto-image"></td>
+                    <td class="crypto-description">Avalanche is a decentralized, open-source proof-of-stake blockchain with smart contract functionality. AVAX is the native cryptocurrency of the platform.</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Avalanche_(blockchain_platform)" target="_blank">Reference: Wikipedia</a></td>
+                </tr>
+
+            
+                <tr>
+                    <td>Bitcoin</td>
+                    <td class="crypto-price">$68,031.69</td>
+                    <td><img src="Bitcoin.png" alt="Bitcoin logo" class="crypto-image"></td>
+                    <td class="crypto-description">Bitcoin is the first decentralized cryptocurrency. Nodes in the peer-to-peer bitcoin network verify transactions through cryptography and record them in a public distributed ledger, called a blockchain, without central oversight.</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank">Reference: Wikipedia</a></td>
+                </tr>
+
+                <tr>
+                    <td>Uniswap</td>
+                    <td class="crypto-price">$6.83</td>
+                    <td><img src="Uniswap.png" alt="Bitcoin logo" class="crypto-image"></td>
+                    <td class="crypto-description">Uniswap is a decentralized cryptocurrency exchange that uses a set of smart contracts to create liquidity pools for the execution of trades. It is an open source project and falls into the category of a DeFi product (Decentralized finance) because it uses smart contracts to facilitate trades instead of a centralized exchange</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank">Reference: Wikipedia</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
